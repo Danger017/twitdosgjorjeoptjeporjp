@@ -27,7 +27,7 @@ if (message.content.startsWith('17s')) {
 client.on('message', message => {
         if (!developers.includes(message.author.id)) return;
   if (message.content === '17a') {
-  let channel = client.channels.get('511744532992229377');
+  let channel = client.channels.get('513697923876257792');
 
   channel.join()
   .then(connection => console.log('Connected'))
