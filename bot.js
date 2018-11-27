@@ -16,12 +16,6 @@ if (message.content.startsWith('17l')) {
 client.user.setActivity(argresult , {type:'LISTENING'});
   client.user.setStatus("idle")
     message.channel.send(` ** ${argresult} \ ** `)
-} else 
-if (message.content.startsWith('17s')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/dangernumber17");
-  client.user.setStatus("idle")
-   message.channel.send(` ** ${argresult} \ ** `)
-}
 });
 
 client.on('message', message => {
