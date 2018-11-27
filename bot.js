@@ -11,12 +11,7 @@ if (message.content.startsWith('17w')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
   client.user.setStatus("idle")
     message.channel.send(` ** ${argresult} \ ** `)
-} else 
-if (message.content.startsWith('17l')) {
-client.user.setActivity(argresult , {type:'LISTENING'});
-  client.user.setStatus("idle")
-    message.channel.send(` ** ${argresult} \ ** `)
-  });
+}
 });
 
 client.on('message', message => {
